@@ -1,0 +1,12 @@
+/Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.BuildingBlocks/bin/Debug/net8.0/WT.BuildingBlocks.deps.json
+/Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.BuildingBlocks/bin/Debug/net8.0/WT.BuildingBlocks.dll
+/Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.BuildingBlocks/bin/Debug/net8.0/WT.BuildingBlocks.pdb
+/Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.BuildingBlocks/obj/Debug/net8.0/WT.BuildingBlocks.csproj.AssemblyReference.cache
+/Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.BuildingBlocks/obj/Debug/net8.0/WT.BuildingBlocks.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.BuildingBlocks/obj/Debug/net8.0/WT.BuildingBlocks.AssemblyInfoInputs.cache
+/Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.BuildingBlocks/obj/Debug/net8.0/WT.BuildingBlocks.AssemblyInfo.cs
+/Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.BuildingBlocks/obj/Debug/net8.0/WT.BuildingBlocks.csproj.CoreCompileInputs.cache
+/Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.BuildingBlocks/obj/Debug/net8.0/WT.BuildingBlocks.dll
+/Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.BuildingBlocks/obj/Debug/net8.0/refint/WT.BuildingBlocks.dll
+/Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.BuildingBlocks/obj/Debug/net8.0/WT.BuildingBlocks.pdb
+/Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.BuildingBlocks/obj/Debug/net8.0/ref/WT.BuildingBlocks.dll

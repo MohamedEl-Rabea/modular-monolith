@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/WT.Customers.Portal.Api.props" />
+</Project>
