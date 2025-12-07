@@ -31,3 +31,4 @@
 /Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.Customers.Portal.Api/obj/Debug/net8.0/WT.Customers.Portal.Api.pdb
 /Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.Customers.Portal.Api/obj/Debug/net8.0/WT.Customers.Portal.Api.genruntimeconfig.cache
 /Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.Customers.Portal.Api/obj/Debug/net8.0/ref/WT.Customers.Portal.Api.dll
+/Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.Customers.Portal.Api/obj/Debug/net8.0/WT.Customers.Portal.Api.sourcelink.json

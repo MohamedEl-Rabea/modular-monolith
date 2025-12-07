@@ -2,18 +2,27 @@ using System.Collections.Immutable;
 using System.Net;
 using System.Text.Json.Serialization;
 
-namespace WT.Customers.Portal.BuildingBlocks.Integration.Types;
+namespace WT.Customers.Portal.BuildingBlocks.Types;
 
 public class OperationResult<TData>
 {
-    public string RequestId { get; set; } = string.Empty;
+    public string RequestId { get; set; }
     public bool Succeeded { get; set; }
+    public bool IsFile { get; set; }
     public int StatusCode { get; set; }
     public TData? Data { get; set; }
     public ImmutableList<ResultMessage> Messages { get; set; } = Enumerable.Empty<ResultMessage>().ToImmutableList();
 
     public static OperationResult<TData> Success(TData data) => SuccessResult(data, (int)HttpStatusCode.OK,
         new ResultMessage("Success", ResultSeverity.Information));
+
+    public static OperationResult<FileOutputDto> File(FileOutputDto data) => new()
+    {
+        Data = data,
+        StatusCode = (int)HttpStatusCode.Created,
+        Succeeded = true,
+        IsFile = true
+    };
 
     public static OperationResult<TData> Success(TData data, params ResultMessage[] messages) =>
         SuccessResult(data, (int)HttpStatusCode.OK, messages);
@@ -58,15 +67,6 @@ public class OperationResult<TData>
                 ? messages.ToImmutableList()
                 : Enumerable.Empty<ResultMessage>().ToImmutableList()
         };
-
-    public static OperationResult<TData> FromStatusCode(int statusCode, TData data, params string[] messages)
-    {
-        if (statusCode < 200 || statusCode >= 300)
-            return FailResult(statusCode, messages.Select(m => new ResultMessage(m, ResultSeverity.Error)).ToArray());
-
-        return SuccessResult(data, statusCode,
-            messages.Select(m => new ResultMessage(m, ResultSeverity.Warning)).ToArray());
-    }
 }
 
 public class ResultMessage

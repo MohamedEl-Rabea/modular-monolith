@@ -10,3 +10,4 @@
 /Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.BuildingBlocks/obj/Debug/net8.0/refint/WT.BuildingBlocks.dll
 /Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.BuildingBlocks/obj/Debug/net8.0/WT.BuildingBlocks.pdb
 /Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.BuildingBlocks/obj/Debug/net8.0/ref/WT.BuildingBlocks.dll
+/Users/mohamedrabea/Sources/WT-B2C/WT.Customers.Portal/WT.BuildingBlocks/obj/Debug/net8.0/WT.BuildingBlocks.sourcelink.json

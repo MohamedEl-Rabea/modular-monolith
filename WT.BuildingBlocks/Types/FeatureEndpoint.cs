@@ -3,7 +3,7 @@ using Asp.Versioning.Builder;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
 
-namespace WT.Customers.Portal.BuildingBlocks.Integration.Types;
+namespace WT.Customers.Portal.BuildingBlocks.Types;
 
 public abstract class FeatureEndpoint : IFeatureEndpoint
 {
