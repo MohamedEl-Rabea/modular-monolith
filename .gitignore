@@ -25,6 +25,8 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+obj/
+bin/
 
 # .NET Core
 project.lock.json
