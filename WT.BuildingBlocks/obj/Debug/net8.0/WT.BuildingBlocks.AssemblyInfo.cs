@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WT.BuildingBlocks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7348a370287b1056719d1e1edd21c2c274b4f2d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99bacda9d543de82b8f05651e31a963bde9e2826")]
 [assembly: System.Reflection.AssemblyProductAttribute("WT.BuildingBlocks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WT.BuildingBlocks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
