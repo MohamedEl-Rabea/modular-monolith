@@ -1,0 +1,42 @@
+[
+  {
+    "code": "EGP",
+    "name": {
+      "en": "Egyptian Pound",
+      "ar": "جنيه مصري"
+    },
+    "symbol": "E£",
+    "countryIso2": "EG",
+    "isActive": true
+  },
+  {
+    "code": "USD",
+    "name": {
+      "en": "US Dollar",
+      "ar": "دولار أمريكي"
+    },
+    "symbol": "$",
+    "countryIso2": "US",
+    "isActive": true
+  },
+  {
+    "code": "AED",
+    "name": {
+      "en": "UAE Dirham",
+      "ar": "درهم إماراتي"
+    },
+    "symbol": "د.إ",
+    "countryIso2": "AE",
+    "isActive": true
+  },
+  {
+    "code": "SAR",
+    "name": {
+      "en": "Saudi Riyal",
+      "ar": "ريال سعودي"
+    },
+    "symbol": "﷼",
+    "countryIso2": "SA",
+    "isActive": true
+  }
+]
